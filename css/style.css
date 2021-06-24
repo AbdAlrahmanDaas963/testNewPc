@@ -1,0 +1,43 @@
+*
+{
+    box-sizing: border-box;
+    color: rgb(15, 206, 25);
+
+}
+/* header start*/
+header
+{
+    background-color: black;
+}
+/* header end*/
+/* content start*/
+.content
+{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.over-black
+{
+    background-color: rgba(104, 216, 93, 0.37);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+.sti
+{
+    transition: all 8s linear;
+}
+.content:hover .over-black
+{
+    visibility: visible;
+}
+.content:hover .sti
+{
+    transform: scale(1.5,1.5);
+}
+/* content end*/
